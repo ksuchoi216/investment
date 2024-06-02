@@ -2,3 +2,59 @@
 tickers:
   asml: ASML
   tsmc: TSMC34.SA
+
+
+stats_explanation:
+  modified_ROIC: 
+    category: economic moat
+    standfor: return on invested capital
+    description: 자본대비수익률 = 세후 이익 / (비유동 자산 + 운전 자산)
+  modified_ROIC4:
+    category: economic moat
+    standfor: return on invested capital for 4 years 
+    description: 자본대비수익률(최근 4년)
+  EBIT/EV: 
+    category: low price
+    standfor: EBIT(Earnings before interest and taxes) / EV(Enterprise Value)
+    description: 이자 및 세금 전 이익(EBIT) / 기업가치(시가총액 - 총 부채 + 총 현금)
+  EBITDA/EV: 
+    category: low price
+    standfor: EBITDA(Earnings before interest, taxes, depreciation and amortization) / EV(Enterprise Value)
+    description: 이자, 세금, 감가상각 및 상각 전 이익(EBITDA) / 기업가치(시가총액(market_cap) - 총 부채(total debt) + 총 현금(total cash))
+  GPA: 
+    category: economic moat
+    standfor: Gross Profit / Assets
+    description: 매출총이익 / 자산 총계(총 자산 - 총 부채(total debt)))
+  ROA:
+    category: economic moat
+    standfor: Return on Assets
+    description: 자산대비수익률 = 당기순이익(net_incom) / 자산총계(assets)
+  ROA4:
+    category: economic moat
+    standfor: Return on Assets for 4 years
+    description: 자산대비수익률(최근 4년)
+  MG:
+    category: economic moat
+    standfor: Margin Growth
+    description: 매출총이익률 증가율
+  MS:
+    category: economic moat
+    standfor: Margin Stability
+    description: 매출총이익률 안정성
+  PER:
+    category: low price
+    standfor: Price to Earnings Ratio
+    description: 주가수익비율 = 주가 / 주당순이익
+  PBR:
+    category: low price
+    standfor: Price to Book Ratio
+    description: 주가순자산비율 = 주가 / 주당순자산
+  PSR:
+    category: low price
+    standfor: Price to Sales Ratio
+    description: 주가매출비율 = 주가 / 주당매출
+  
+  
+
+  
+
